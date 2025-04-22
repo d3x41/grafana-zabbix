@@ -1142,6 +1142,37 @@
   dependencies:
     tslib "^2.4.0"
 
+"@grafana/data@10.4.17":
+  version "10.4.17"
+  resolved "https://registry.yarnpkg.com/@grafana/data/-/data-10.4.17.tgz#a1f78fcc13fad066ab4ff5c8ab1bc5d7204831b8"
+  integrity sha512-+RkeT+5B/fqOPSRsGD2hD4sOLMBDmaHp7TLtA0BoOHNEG0raJGNa0GBsU5r2BMvlswcV+ys4waFeeiNKrsNKFQ==
+  dependencies:
+    "@braintree/sanitize-url" "7.0.0"
+    "@grafana/schema" "10.4.17"
+    "@types/d3-interpolate" "^3.0.0"
+    "@types/string-hash" "1.1.3"
+    d3-interpolate "3.0.1"
+    date-fns "3.3.1"
+    dompurify "^3.0.0"
+    eventemitter3 "5.0.1"
+    fast_array_intersect "1.1.0"
+    history "4.10.1"
+    lodash "4.17.21"
+    marked "12.0.0"
+    marked-mangle "1.1.7"
+    moment "2.30.1"
+    moment-timezone "0.5.45"
+    ol "7.4.0"
+    papaparse "5.4.1"
+    react-use "17.5.0"
+    regenerator-runtime "0.14.1"
+    rxjs "7.8.1"
+    string-hash "^1.1.3"
+    tinycolor2 "1.6.0"
+    tslib "2.6.2"
+    uplot "1.6.30"
+    xss "^1.0.14"
+
 "@grafana/data@10.4.2":
   version "10.4.2"
   resolved "https://registry.yarnpkg.com/@grafana/data/-/data-10.4.2.tgz#c9ace409c386ab2a66ed284badc7a5e6cad6a0ae"
@@ -1204,19 +1235,19 @@
     uplot "1.6.30"
     xss "^1.0.14"
 
-"@grafana/e2e-selectors@10.4.2":
-  version "10.4.2"
-  resolved "https://registry.yarnpkg.com/@grafana/e2e-selectors/-/e2e-selectors-10.4.2.tgz#4f99ad4b57b44ecd45e230a09cb839762bbb9564"
-  integrity sha512-26D4dAo7VRQwdOZ8oFzGnamwJoa7DhJJeJ32MFdFWktlGTIU2+4lqbIgvW8kDYsvvT7cv4kkaYwnGr6l08HMtA==
+"@grafana/e2e-selectors@10.4.17":
+  version "10.4.17"
+  resolved "https://registry.yarnpkg.com/@grafana/e2e-selectors/-/e2e-selectors-10.4.17.tgz#00bc6212f8ebfe624313dcdf6c79a3401d71aa4f"
+  integrity sha512-O/RzbhR0M8XrDLD1wQznJ/WXQKqx5WoWcTs49DIMcmX9lEoVbg/Z5qGRcFmvotWYXAfnPUH9Z5JKorx8pqzh/Q==
   dependencies:
     "@grafana/tsconfig" "^1.2.0-rc1"
     tslib "2.6.2"
     typescript "5.3.3"
 
-"@grafana/e2e-selectors@10.4.8":
-  version "10.4.8"
-  resolved "https://registry.yarnpkg.com/@grafana/e2e-selectors/-/e2e-selectors-10.4.8.tgz#da51db7b7f5b7fc30145742e1f4380e00764a26a"
-  integrity sha512-9deNPRjBcxT2fmS+3N1rdB+3qHeDSSKXvYiJF0skoul3xMc/n6paioHMBZPnvINnK6JpU4bpZm6BsOkI/08VpQ==
+"@grafana/e2e-selectors@10.4.2":
+  version "10.4.2"
+  resolved "https://registry.yarnpkg.com/@grafana/e2e-selectors/-/e2e-selectors-10.4.2.tgz#4f99ad4b57b44ecd45e230a09cb839762bbb9564"
+  integrity sha512-26D4dAo7VRQwdOZ8oFzGnamwJoa7DhJJeJ32MFdFWktlGTIU2+4lqbIgvW8kDYsvvT7cv4kkaYwnGr6l08HMtA==
   dependencies:
     "@grafana/tsconfig" "^1.2.0-rc1"
     tslib "2.6.2"
@@ -1290,21 +1321,28 @@
     sql-formatter-plus "^1.3.6"
     uuid "^8.3.2"
 
-"@grafana/runtime@10.4.8":
-  version "10.4.8"
-  resolved "https://registry.yarnpkg.com/@grafana/runtime/-/runtime-10.4.8.tgz#54c3f82b6cc67b0b54064baf622ecb2cca4d5a8c"
-  integrity sha512-jHsvq9W9s4d8WMBF2M9rLlG+YFdCPR+IjnDZF1Tt1Pgccn6kxhQO8LOEei6CpkRZzBh7Wd1RLQ9/tkj4Vj5mgg==
+"@grafana/runtime@10.4.17":
+  version "10.4.17"
+  resolved "https://registry.yarnpkg.com/@grafana/runtime/-/runtime-10.4.17.tgz#54c8b6df2f1f37a7567eb7e4675db2db1a6599d5"
+  integrity sha512-xJGJrBpIO2P93ZodHgNwxfAhhhf+cSdAtjozrJSVYNU5piidCKzP9tZXAXIkEKybytLY4dJp6+ZznLp/O2xMIw==
   dependencies:
-    "@grafana/data" "10.4.8"
-    "@grafana/e2e-selectors" "10.4.8"
+    "@grafana/data" "10.4.17"
+    "@grafana/e2e-selectors" "10.4.17"
     "@grafana/faro-web-sdk" "^1.3.6"
-    "@grafana/schema" "10.4.8"
-    "@grafana/ui" "10.4.8"
+    "@grafana/schema" "10.4.17"
+    "@grafana/ui" "10.4.17"
     history "4.10.1"
     lodash "4.17.21"
     rxjs "7.8.1"
     systemjs "6.14.3"
     systemjs-cjs-extra "0.2.0"
+    tslib "2.6.2"
+
+"@grafana/schema@10.4.17":
+  version "10.4.17"
+  resolved "https://registry.yarnpkg.com/@grafana/schema/-/schema-10.4.17.tgz#b6ada63d27c225023f5397f5fa290112d9a319d5"
+  integrity sha512-4iRljst7/JQ4U6NcEHSThE+rCx9s3slp7pWt1kr1Ht5f9qoTYaokcJUpBl01WeFn4Xu0yYNT5Zy7ZtCnTFT55A==
+  dependencies:
     tslib "2.6.2"
 
 "@grafana/schema@10.4.2":
@@ -1331,18 +1369,18 @@
   resolved "https://registry.yarnpkg.com/@grafana/tsconfig/-/tsconfig-2.0.0.tgz#277aba907ddbe0301dc37248923e6bd2b68f5151"
   integrity sha512-cxC3Htv/GidI5FeVGAzj/lYZTMMz/Cfsc8VOQFO3Ichjx3hUjyjeoBUIpVSVMnIjKUdA5ycdxtMYPHIuIrk8+A==
 
-"@grafana/ui@10.4.2":
-  version "10.4.2"
-  resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-10.4.2.tgz#4781a9172a0aae4d420161dce1414876d62d3ae4"
-  integrity sha512-QAJtAQrCbrkZmDEp+tB6vjOcAFbpkO+uJpQiXxPTw4yIze9N6nvqivG5F+X7/29sEJsEALYKi9LC81KTcq8yBg==
+"@grafana/ui@10.4.17":
+  version "10.4.17"
+  resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-10.4.17.tgz#3f59d9c81cb0e747caddd505f2852e8e784fae29"
+  integrity sha512-ayxhw6jiraDe73Ybg0TLqFn1tK8yK3d3cie83yaQ86CSJxp+d0hfIxIv/jQmM0emuwi9nmjsT4MTsJJiQck7oQ==
   dependencies:
     "@emotion/css" "11.11.2"
     "@emotion/react" "11.11.3"
     "@floating-ui/react" "0.26.9"
-    "@grafana/data" "10.4.2"
-    "@grafana/e2e-selectors" "10.4.2"
+    "@grafana/data" "10.4.17"
+    "@grafana/e2e-selectors" "10.4.17"
     "@grafana/faro-web-sdk" "^1.3.6"
-    "@grafana/schema" "10.4.2"
+    "@grafana/schema" "10.4.17"
     "@leeoniya/ufuzzy" "1.0.14"
     "@monaco-editor/react" "4.6.0"
     "@popperjs/core" "2.11.8"
@@ -1398,18 +1436,18 @@
     uplot "1.6.30"
     uuid "9.0.1"
 
-"@grafana/ui@10.4.8":
-  version "10.4.8"
-  resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-10.4.8.tgz#e33bb179870c6a5a5f0cb52f073f215bba475c83"
-  integrity sha512-UCfpX3Zu41Ap1c5iXcmV1+d2mmivEt+jl2aVL+MhR+zJhH9IbMqXJm8gme1R7UR+jB8TCbTg5tpUbFJZJ+OowA==
+"@grafana/ui@10.4.2":
+  version "10.4.2"
+  resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-10.4.2.tgz#4781a9172a0aae4d420161dce1414876d62d3ae4"
+  integrity sha512-QAJtAQrCbrkZmDEp+tB6vjOcAFbpkO+uJpQiXxPTw4yIze9N6nvqivG5F+X7/29sEJsEALYKi9LC81KTcq8yBg==
   dependencies:
     "@emotion/css" "11.11.2"
     "@emotion/react" "11.11.3"
     "@floating-ui/react" "0.26.9"
-    "@grafana/data" "10.4.8"
-    "@grafana/e2e-selectors" "10.4.8"
+    "@grafana/data" "10.4.2"
+    "@grafana/e2e-selectors" "10.4.2"
     "@grafana/faro-web-sdk" "^1.3.6"
-    "@grafana/schema" "10.4.8"
+    "@grafana/schema" "10.4.2"
     "@leeoniya/ufuzzy" "1.0.14"
     "@monaco-editor/react" "4.6.0"
     "@popperjs/core" "2.11.8"
