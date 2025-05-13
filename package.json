@@ -31,7 +31,7 @@
     "@emotion/css": "11.10.6",
     "@grafana/data": "10.4.8",
     "@grafana/plugin-ui": "^0.9.1",
-    "@grafana/runtime": "10.4.8",
+    "@grafana/runtime": "10.4.17",
     "@grafana/schema": "10.4.8",
     "@grafana/ui": "10.4.2",
     "react": "18.2.0",
