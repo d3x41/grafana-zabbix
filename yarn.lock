@@ -1307,6 +1307,13 @@
     systemjs-cjs-extra "0.2.0"
     tslib "2.6.2"
 
+"@grafana/schema@10.4.17":
+  version "10.4.17"
+  resolved "https://registry.yarnpkg.com/@grafana/schema/-/schema-10.4.17.tgz#b6ada63d27c225023f5397f5fa290112d9a319d5"
+  integrity sha512-4iRljst7/JQ4U6NcEHSThE+rCx9s3slp7pWt1kr1Ht5f9qoTYaokcJUpBl01WeFn4Xu0yYNT5Zy7ZtCnTFT55A==
+  dependencies:
+    tslib "2.6.2"
+
 "@grafana/schema@10.4.2":
   version "10.4.2"
   resolved "https://registry.yarnpkg.com/@grafana/schema/-/schema-10.4.2.tgz#d3f1fc3ed0f37af8ee664746e91651f536637142"
